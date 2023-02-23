@@ -1,0 +1,203 @@
+<DOCTYPE html></DOCTYPE>
+<html>
+  <head>
+      <title>My first Webpage</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+     
+       body {
+  background-image: url("destop.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #e9e9e9;
+    }
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: #222222;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #29292a;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 8px;
+    }
+
+    tr:nth-child(1) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+    .footer {
+      padding: 55px 20px;
+      min-width: 1445px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+    .footer .social a {
+      padding: 0 5px;
+      color: #222222;
+    }
+    a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+      </style>
+  </head>  
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Mr. H</h1>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </header>
+      <aside class="left">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#career">Career</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <br><br>
+        <p>"Looking down on yourself doesn't meant that you are weak.Looking down on you means your looking at the errors to be fixed in yourself. "<br>- Mr. H</p>
+      </aside>
+      <main class="content">
+        <h2>About This Page</h2>
+        <p>This page was created at time when i was droped out of the college. This was hard to build the whole webpage through me so google the best guild for the whole world was my 
+          teacher the whole time untill today i mean till i live. I hope you will like my web page thank you.
+        </p>
+        <h2>My Career</h2>
+        <p>I am a usual boy of coding community. It was not easy to learn coding online for me because of the covid-19 pandamic. It was a hard time for me but i still tried though after earing all the taunts of everyone around me some for good and some for just to show me that i was no way there level or on eof them. But never look down on your self as the thought goes but according to me sometimes just looking down on yourself doesn't mean that you can't do anything but look down on yourself. Looking down means you are seeing the errors in yourself and that u need to fix before the error goes in infinite loops. This is something i created when i was drop out of the college.
+          Someone said that i can't do anything by just sitting at home do some online lecture and be like me study non stop. But i want to do something different so i can't do it as they want. But the not doing the things they want was not easy for me because of continously hearing of the same thing again and again was like putting me through in hell. It is still a hard time for me but i will try to achive what i want and that i can be proud of myself and make an eye contact to those who look down on me. I don't want to look down on them because i'm no one to judge them for who they are. I Just wish me and my future a good luck form now on. Just show them what u can do.  </p>
+        <hr><br>
+      <h2>There are some videos are as follows:</h2>
+      <video poster="azrole.jpg" height="300" width="500" controls>
+         <source src="anime.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video> <br><br>
+      <video poster="azrole.jpg" height="300" width="500" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video><br><br>
+      <form action="/action_page.php" > <center>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"required autofocus><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label>Father Name/Mother Name:<input type="name" name="Father Name/Mother Name" required> </label><br><br>
+        <br>
+        <label>Email:<input type="text" name="email" required></label><br><br>
+        <label for="phone">phone number:</label>
+        <input type="tell" id="phone" name="phone" required><br><br>
+        <label for="files">Select files:</label>
+        <input type="file" id="files" name="files" required><br><br>
+        <label for="subject">Feedback</label>
+        <textarea id="subject" name="subject" placeholder="Give your feedback"style="height:50px"></textarea><br><br>
+       <input type="Submit" formnovalidate="formnovalidate" value="Submit">
+       <input type="reset" value="reset"><br><br>
+      </form></center>
+      <h3>Previous and Next Buttons</h3>
+
+      <a href="#" class="previous">&laquo; Previous</a>
+<a href="#" class="next">Next &raquo;</a>
+<a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>
+      <footer class="footer" >&copy; Copyright Mr.H</footer>
+      <bottom>
+      <div class="terms">
+        <center><a href="terms.html">Terms & Conditions</a></center>
+      </div>
+    </bottom>
+      </body>
+</html>       
